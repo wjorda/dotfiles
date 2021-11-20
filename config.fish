@@ -1,0 +1,9 @@
+set -x JAVA_HOME /usr/local/Cellar/openjdk/17.0.1
+set -x ANDROID_HOME ~/Library/Android/sdk
+set -x NDK_HOME $ANDROID_HOME/ndk/23.1.7779620
+
+set -x PATH $PATH $ANDROID_HOME/cmdline-tools/latest/bin $ANDROID_HOME/sdk/platform-tools/
+
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
