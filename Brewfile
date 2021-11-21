@@ -7,6 +7,7 @@ brew "helm@3"
 brew "kubectl"
 brew "openjdk@17"
 brew "oq"
+brew "rust"
 brew "wget"
 
 cask "android-studio"
