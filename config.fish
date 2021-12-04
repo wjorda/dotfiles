@@ -7,7 +7,3 @@ set -x PATH $PATH $ANDROID_HOME/cmdline-tools/latest/bin $ANDROID_HOME/platform-
 
 # rustup
 set -x PATH $PATH $HOME/.cargo/bin
-
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
