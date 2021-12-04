@@ -3,6 +3,7 @@ cask_args appdir: "~/Applications", require_sha: true
 
 brew "fish"
 brew "hblock"
+brew "tree"
 
 cask "firefox"
 cask "iterm2"
