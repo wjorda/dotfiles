@@ -10,6 +10,7 @@ function ensure_brew_packages() {
 
 function ensure_symlinks () {
   ln -sf ${PWD}/config.fish ~/.config/fish/config.fish
+  ln -sf ${PWD}/.gitconfig ~/.gitconfig
 }
 
 function ensure_java () {
