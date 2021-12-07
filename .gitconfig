@@ -16,3 +16,5 @@
   proxy-on = config --global http.proxy "socks5h://127.0.0.1:1338"
   proxy-off = config --global http.proxy --unset
   cmp = !git cm && git push
+[pull]
+	rebase = true
