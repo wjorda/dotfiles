@@ -12,6 +12,7 @@ cask "sublime-text"
 
 # Rust dev
 brew "rustup"
+cask "clion"
 
 # K8s dev
 brew "helm@3"
