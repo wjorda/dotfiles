@@ -7,3 +7,6 @@ set -x PATH $PATH $ANDROID_HOME/cmdline-tools/latest/bin $ANDROID_HOME/platform-
 
 # rustup
 set -x PATH $PATH $HOME/.cargo/bin
+
+# random bin's
+set -x PATH $PATH $HOME/bin
