@@ -1,14 +1,17 @@
 tap "homebrew/cask"
 cask_args appdir: "~/Applications", require_sha: true
 
-brew "fish"
 brew "hblock"
-brew "tree"
 
 cask "firefox"
 cask "iterm2"
 cask "ripcord"
 cask "sublime-text"
+
+# Shell Tools
+brew "fish"
+brew "tmux"
+brew "tree"
 
 # Rust dev
 brew "rustup"
