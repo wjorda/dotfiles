@@ -2,6 +2,9 @@ tap "homebrew/cask"
 cask_args appdir: "~/Applications", require_sha: true
 
 brew "hblock"
+brew "tree"
+brew "ykman"
+brew "go"
 
 cask "firefox"
 cask "iterm2"
@@ -36,4 +39,3 @@ cask "android-studio"
 # Haskell dev
 brew "haskell-stack"
 brew "haskell-language-server"
-

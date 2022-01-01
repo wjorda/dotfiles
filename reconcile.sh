@@ -11,11 +11,12 @@ function ensure_brew_packages() {
 function ensure_symlinks () {
   ln -sf ${PWD}/config.fish ~/.config/fish/config.fish
   ln -sf ${PWD}/.gitconfig ~/.gitconfig
+  ln -sf ${PWD}/.bashrc ~/.bashrc
+  source ~/.bashrc
 }
 
 function ensure_java () {
-  JAVA_VERSION=$(java --version | grep jdk | awk '{print $2}')
-  sudo ln -sf ${JAVA_HOME}/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/${JAVA_VERSION}
+  sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 }
 
 function ensure_android () {
