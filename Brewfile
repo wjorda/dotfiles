@@ -15,10 +15,16 @@ brew "rustup"
 cask "clion"
 
 # K8s dev
+tap "int128/kubelogin"
+
+cask "docker"
 brew "helm@3"
 brew "kubectl"
 brew "wget"
 brew "oq"
+brew "skaffold"
+brew "k3d"
+brew "int128/kubelogin/kubelogin"
 
 # Android dev
 brew "openjdk@17"
@@ -27,3 +33,4 @@ cask "android-studio"
 # Haskell dev
 brew "haskell-stack"
 brew "haskell-language-server"
+
