@@ -29,6 +29,7 @@ brew "oq"
 brew "skaffold"
 brew "k3d"
 brew "int128/kubelogin/kubelogin"
+brew "kustomize"
 
 # Android dev
 brew "openjdk@17"
