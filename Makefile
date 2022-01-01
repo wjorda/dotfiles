@@ -17,3 +17,9 @@ android-lock.txt: android-requirements.txt
 android: android-lock.txt
 
 update: packages java android
+
+clean:
+	rm -rf android-lock.txt
+	rm -rf Brewfile.lock.json
+
+upgrade: clean update
