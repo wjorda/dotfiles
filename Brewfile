@@ -32,6 +32,7 @@ brew "int128/kubelogin/kubelogin"
 brew "kustomize"
 brew "kubeseal"
 brew "argocd"
+brew "linkerd"
 
 # Android dev
 brew "openjdk@17"
