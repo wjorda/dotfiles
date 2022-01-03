@@ -23,6 +23,7 @@ cask "clion"
 tap "int128/kubelogin"
 
 #cask "docker"
+brew "podman"
 brew "helm@3"
 brew "kubectl"
 brew "wget"
@@ -44,3 +45,5 @@ brew "haskell-language-server"
 
 # Golang
 brew "go"
+brew "protoc-gen-go"
+
