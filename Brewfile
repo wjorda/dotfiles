@@ -1,31 +1,38 @@
 tap "homebrew/cask"
 cask_args appdir: "~/Applications", require_sha: true
 
-brew "fish"
 brew "hblock"
-brew "tree"
-brew "skaffold"
 brew "ykman"
-brew "go"
-brew "protoc-gen-go"
-brew "podman"
-cask "vagrant"
 
 cask "firefox"
 cask "iterm2"
 cask "ripcord"
 cask "sublime-text"
-cask "visual-studio-code"
+cask "vagrant"
+
+# Shell Tools
+brew "fish"
+brew "tmux"
+brew "tree"
 
 # Rust dev
 brew "rustup"
 cask "clion"
 
 # K8s dev
+tap "int128/kubelogin"
+
+#cask "docker"
 brew "helm@3"
 brew "kubectl"
 brew "wget"
 brew "oq"
+brew "skaffold"
+#brew "k3d"
+brew "int128/kubelogin/kubelogin"
+brew "kustomize"
+#brew "kubeseal"
+#brew "argocd"
 
 # Android dev
 brew "openjdk@17"
@@ -34,3 +41,6 @@ cask "android-studio"
 # Haskell dev
 brew "haskell-stack"
 brew "haskell-language-server"
+
+# Golang
+brew "go"
