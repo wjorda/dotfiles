@@ -3,11 +3,13 @@ cask_args appdir: "~/Applications", require_sha: true
 
 brew "hblock"
 brew "ykman"
+brew "hugo"
 
 cask "firefox"
 cask "iterm2"
 cask "ripcord"
 cask "sublime-text"
+cask "brave-browser"
 
 # Shell Tools
 brew "fish"
