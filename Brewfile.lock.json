@@ -6,6 +6,9 @@
       },
       "int128/kubelogin": {
         "revision": "925083454173767eb6d6b7de0605bfdb6ed8c30e"
+      },
+      "homebrew/cask-drivers": {
+        "revision": "a22eddd1d7dd0efb7ea3608db276eb948af2f357"
       }
     },
     "brew": {
@@ -820,6 +823,26 @@
             "require_sha": true
           }
         }
+      },
+      "signal": {
+        "version": "5.27.1",
+        "options": {
+          "full_name": "signal",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "yubico-authenticator": {
+        "version": "5.1.0",
+        "options": {
+          "full_name": "yubico-authenticator",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
       }
     }
   },
@@ -828,7 +851,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.3.9",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "1f8a700f73f3aeae58d57da34f86a7826b38c37a",
+        "Homebrew/homebrew-core": "b49d560f2d75a4773050f3ce8e447e1c10cf5226",
         "CLT": "12.5.1.0.1.1623191612",
         "Xcode": "12.5.1",
         "macOS": "11.6.2"

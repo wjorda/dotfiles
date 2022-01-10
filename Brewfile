@@ -1,5 +1,6 @@
 tap "homebrew/cask"
 cask_args appdir: "~/Applications", require_sha: true
+tap "homebrew/cask-drivers"
 
 brew "hblock"
 brew "ykman"
@@ -7,8 +8,10 @@ brew "ykman"
 cask "firefox"
 cask "iterm2"
 cask "ripcord"
+cask "signal"
 cask "sublime-text"
 cask "vagrant"
+cask "yubico-authenticator"
 
 # Shell Tools
 brew "fish"
