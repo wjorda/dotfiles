@@ -4,6 +4,7 @@ tap "homebrew/cask-drivers"
 
 brew "hblock"
 brew "ykman"
+brew "hugo"
 
 cask "firefox"
 cask "iterm2"
@@ -26,18 +27,14 @@ cask "clion"
 # K8s dev
 tap "int128/kubelogin"
 
-#cask "docker"
 brew "podman"
 brew "helm@3"
 brew "kubectl"
 brew "wget"
 brew "oq"
 brew "skaffold"
-#brew "k3d"
 brew "int128/kubelogin/kubelogin"
 brew "kustomize"
-#brew "kubeseal"
-#brew "argocd"
 
 # Android dev
 brew "openjdk@17"
