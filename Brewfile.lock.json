@@ -4,11 +4,11 @@
       "homebrew/cask": {
         "revision": "ea961e565e0b9c7e4d4d42b86c1d8f499d1687ee"
       },
-      "int128/kubelogin": {
-        "revision": "925083454173767eb6d6b7de0605bfdb6ed8c30e"
-      },
       "homebrew/cask-drivers": {
         "revision": "a22eddd1d7dd0efb7ea3608db276eb948af2f357"
+      },
+      "int128/kubelogin": {
+        "revision": "925083454173767eb6d6b7de0605bfdb6ed8c30e"
       }
     },
     "brew": {
@@ -784,6 +784,16 @@
           }
         }
       },
+      "signal": {
+        "version": "5.27.1",
+        "options": {
+          "full_name": "signal",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
       "sublime-text": {
         "version": "4.126",
         "options": {
@@ -798,6 +808,16 @@
         "version": "2.2.19",
         "options": {
           "full_name": "vagrant",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "yubico-authenticator": {
+        "version": "5.1.0",
+        "options": {
+          "full_name": "yubico-authenticator",
           "args": {
             "appdir": "~/Applications",
             "require_sha": true
@@ -823,26 +843,6 @@
             "require_sha": true
           }
         }
-      },
-      "signal": {
-        "version": "5.27.1",
-        "options": {
-          "full_name": "signal",
-          "args": {
-            "appdir": "~/Applications",
-            "require_sha": true
-          }
-        }
-      },
-      "yubico-authenticator": {
-        "version": "5.1.0",
-        "options": {
-          "full_name": "yubico-authenticator",
-          "args": {
-            "appdir": "~/Applications",
-            "require_sha": true
-          }
-        }
       }
     }
   },
@@ -852,8 +852,8 @@
         "HOMEBREW_VERSION": "3.3.9",
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "b49d560f2d75a4773050f3ce8e447e1c10cf5226",
-        "CLT": "12.5.1.0.1.1623191612",
-        "Xcode": "12.5.1",
+        "CLT": "13.2.0.0.1.1638488800",
+        "Xcode": "13.1",
         "macOS": "11.6.2"
       }
     }

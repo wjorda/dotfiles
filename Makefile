@@ -18,12 +18,18 @@ android-lock.txt: android-requirements.txt
 	sdkmanager --list_installed --include_obsolete > $@
 android: android-lock.txt
 
+softwareupdate-history.txt:
+	softwareupdate -ia
+	softwareupdate --history > $@
+system: softwareupdate-history.txt
+
 update: packages symlinks java android
 
 clean:
+	rm -rf softwareupdate-history.txt
 	rm -rf android-lock.txt
 	rm -rf Brewfile.lock.json
 
-upgrade: clean update
+upgrade: clean system update
 
 default: update

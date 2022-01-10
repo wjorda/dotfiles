@@ -1,0 +1,35 @@
+Display Name                                       Version    Date                  
+------------                                       -------    ----                  
+MacBook Pro Supplemental Update                               06/06/2019, 10:32:00  
+Command Line Tools (macOS Mojave version 10.14) for Xcode 10.2       06/07/2019, 13:05:37  
+                                                              07/24/2019, 08:59:09  
+HP Printer Software Update                         5.1        07/29/2019, 09:56:40  
+                                                              09/03/2019, 08:42:39  
+                                                              10/07/2019, 15:09:48  
+Command Line Tools (macOS Mojave version 10.14) for Xcode 10.3       10/10/2019, 12:05:24  
+Safari                                             13.0.2     10/10/2019, 12:05:24  
+                                                              11/05/2019, 09:03:27  
+Safari                                             14.0       10/15/2020, 08:42:53  
+Safari                                             14.0.1     11/23/2020, 10:16:24  
+Safari                                             14.0.2     12/16/2020, 09:43:23  
+Command Line Tools for Xcode                       12.3       01/19/2021, 09:32:37  
+Command Line Tools for Xcode                       12.4       02/08/2021, 13:45:32  
+Safari                                             14.0.3     02/11/2021, 18:21:51  
+macOS Big Sur                                      11.2.1     02/18/2021, 10:53:10  
+macOS Big Sur 11.2.2                               11.2.2     03/02/2021, 08:49:34  
+macOS Big Sur 11.2.3                               11.2.3     03/15/2021, 10:13:42  
+macOS Big Sur 11.3                                 11.3       04/27/2021, 10:15:20  
+macOS Big Sur 11.3.1                               11.3.1     05/11/2021, 08:46:46  
+macOS Big Sur 11.4                                 11.4       05/27/2021, 16:13:17  
+macOS Big Sur 11.5.1                               11.5.1     07/27/2021, 08:53:24  
+macOS Big Sur 11.6                                 11.6       09/14/2021, 10:22:09  
+Safari                                             15.1       11/15/2021, 09:41:06  
+macOS Big Sur 11.6.1                               11.6.1     11/15/2021, 09:41:30  
+Device Support Update                                         12/01/2021, 11:05:57  
+Safari                                             15.2       12/16/2021, 18:12:46  
+Command Line Tools for Xcode                       12.4       12/16/2021, 18:26:24  
+Command Line Tools for Xcode                       13.2       12/16/2021, 18:26:24  
+Command Line Tools for Xcode                       12.5       12/16/2021, 18:26:24  
+Command Line Tools for Xcode                       12.5       12/16/2021, 18:26:24  
+macOS Big Sur 11.6.2                               11.6.2     12/23/2021, 09:45:19  
+Command Line Tools for Xcode                       13.2       01/10/2022, 12:51:48  
