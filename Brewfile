@@ -14,6 +14,7 @@ cask "vagrant"
 brew "fish"
 brew "tmux"
 brew "tree"
+brew "bfg"
 
 # Rust dev
 brew "rustup"
