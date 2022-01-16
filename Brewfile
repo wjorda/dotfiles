@@ -38,7 +38,7 @@ brew "kustomize"
 brew "kubeseal"
 brew "argocd"
 brew "linkerd"
-
+brew "k3d"
 
 # Android dev
 brew "openjdk@17"
