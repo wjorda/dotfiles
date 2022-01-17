@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "8270b76b8b6bec4457be1da2ae21f52915a690a2"
+        "revision": "6c6bb21e69566475129bffecf54045c39262c6f7"
       },
       "homebrew/cask-drivers": {
         "revision": "3595c27a10fbb5fb003a36d0c4c33eb9cd09d0cf"
@@ -907,6 +907,20 @@
             }
           }
         }
+      },
+      "openapi-generator": {
+        "version": "5.3.1",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/openapi-generator/blobs/sha256:ead0082bf72df72f7349393f1733daaeff4f52a1d1910384fbfe2004fff4add3",
+              "sha256": "ead0082bf72df72f7349393f1733daaeff4f52a1d1910384fbfe2004fff4add3"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -1017,7 +1031,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.10-63-g286d782",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "0a9abdfbe50d275f505e3e73216ab372325a4b8f",
+        "Homebrew/homebrew-core": "d178001150c03bc3f0143f8abec39fd13a6ecc86",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.1",
         "macOS": "12.1"

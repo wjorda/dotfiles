@@ -5,6 +5,7 @@ tap "homebrew/cask-drivers"
 brew "hblock"
 brew "ykman"
 brew "hugo"
+brew "openapi-generator"
 
 cask "brave-browser"
 cask "firefox"
