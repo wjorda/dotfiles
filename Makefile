@@ -54,6 +54,8 @@ clean:
 	rm -rf Brewfile.lock.json
 	rm -rf pip.lock
 
-upgrade: clean system update
+upgrade: clean update
+
+system-upgrade: clean system update
 
 default: update
