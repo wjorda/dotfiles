@@ -40,12 +40,19 @@ softwareupdate-history.txt:
 system: softwareupdate-history.txt
 
 
-update: packages symlinks java android
+pip.lock: requirements.txt
+	pip3 install -r $^
+	pip3 freeze --all > $@
+python: pip.lock
+
+
+update: packages symlinks java android python
 
 clean:
 	rm -rf softwareupdate-history.txt
 	rm -rf android-lock.txt
 	rm -rf Brewfile.lock.json
+	rm -rf pip.lock
 
 upgrade: clean system update
 
