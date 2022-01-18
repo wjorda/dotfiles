@@ -28,10 +28,10 @@ symlinks: $(SYMLINKS)
 java: /Library/Java/JavaVirtualMachines/openjdk.jdk 
 
 
-android-lock.txt: android-requirements.txt
+android.lock: android-requirements.txt
 	sdkmanager --package_file=$^
 	sdkmanager --list_installed --include_obsolete > $@
-android: android-lock.txt
+android: android.lock
 
 
 softwareupdate-history.txt:
@@ -45,11 +45,10 @@ pip.lock: requirements.txt
 	pip3 freeze --all > $@
 python: pip.lock
 
-
 update: packages symlinks java android python
 
 clean:
-	rm -rf android-lock.txt
+	rm -rf android.lock
 	rm -rf Brewfile.lock.json
 	rm -rf pip.lock
 
