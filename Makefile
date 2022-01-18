@@ -49,13 +49,15 @@ python: pip.lock
 update: packages symlinks java android python
 
 clean:
-	rm -rf softwareupdate-history.txt
 	rm -rf android-lock.txt
 	rm -rf Brewfile.lock.json
 	rm -rf pip.lock
 
 upgrade: clean update
 
-system-upgrade: clean system update
+system-clean: clean
+	rm -rf softwareupdate-history.txt
+
+system-upgrade: system-clean system update
 
 default: update
