@@ -40,6 +40,7 @@ brew "kubeseal"
 brew "argocd"
 brew "linkerd"
 brew "k3d"
+brew "docker-compose"
 
 # Android dev
 brew "openjdk@17"
@@ -53,3 +54,6 @@ brew "haskell-language-server"
 brew "go"
 brew "protoc-gen-go"
 
+# Web Dev
+brew "node"
+brew "yarn"
