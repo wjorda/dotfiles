@@ -53,7 +53,3 @@ brew "haskell-language-server"
 # Golang
 brew "go"
 brew "protoc-gen-go"
-
-# Web Dev
-brew "node"
-brew "yarn"
