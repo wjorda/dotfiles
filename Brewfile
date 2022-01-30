@@ -1,5 +1,5 @@
 tap "homebrew/cask"
-cask_args appdir: "~/Applications", require_sha: true
+cask_args appdir: "~/Applications"
 tap "homebrew/cask-drivers"
 
 brew "hblock"
@@ -14,6 +14,8 @@ cask "ripcord"
 cask "signal"
 cask "sublime-text"
 cask "yubico-authenticator"
+cask "thinkorswim"
+cask "spotify"
 
 # Shell Tools
 brew "fish"
