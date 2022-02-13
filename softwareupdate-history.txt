@@ -3,3 +3,5 @@ Display Name                                       Version    Date
 Command Line Tools for Xcode                       13.1       11/19/2021, 18:06:49  
 Command Line Tools for Xcode                       13.2       01/08/2022, 00:25:57  
 macOS Monterey 12.1                                12.1       01/15/2022, 00:23:24  
+macOS Monterey 12.2                                12.2       02/11/2022, 16:02:16  
+macOS Monterey 12.2.1                              12.2.1     02/13/2022, 10:24:06  
