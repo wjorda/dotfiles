@@ -8,6 +8,7 @@ brew "hugo"
 brew "openapi-generator"
 brew "oq"
 brew "jo"
+brew "bitwarden-cli"
 
 cask "brave-browser"
 cask "firefox"
