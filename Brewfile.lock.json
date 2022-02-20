@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "f64eb37aec99346965e539f22f3cc972175070c5"
+        "revision": "bf5c017eff74b206c38e3fcaf66846eaa4dd4e4d"
       },
       "homebrew/cask-drivers": {
-        "revision": "59efe46e6f2dc829b1b8452198ae5b05bdd48916"
+        "revision": "986f7a99a5b4c7dde307fa5b53ff433d9102172c"
       },
       "int128/kubelogin": {
         "revision": "f6fac62fa07f563fc12b86a3dc818cfa20746931"
@@ -1124,7 +1124,7 @@
         }
       },
       "spotify": {
-        "version": "1.1.78.765,5ea20b00,16",
+        "version": "1.1.79.763,c2965cdf,21",
         "options": {
           "full_name": "spotify",
           "args": {
@@ -1158,15 +1158,24 @@
             "appdir": "~/Applications"
           }
         }
+      },
+      "balenaetcher": {
+        "version": "1.7.3",
+        "options": {
+          "full_name": "balenaetcher",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
       }
     }
   },
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.3.15-61-g283c0e5",
+        "HOMEBREW_VERSION": "3.3.15-71-g374adf7",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "7ddc152e7e139d29bac1eccd7d513f47cf0549b4",
+        "Homebrew/homebrew-core": "c9a233f52cc1bbd557739ec00a7b7f205e7e90be",
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.2.1",
         "macOS": "12.2.1"

@@ -19,6 +19,7 @@ cask "sublime-text"
 cask "yubico-authenticator"
 cask "thinkorswim"
 cask "spotify"
+cask "balenaetcher"
 
 # Shell Tools
 brew "fish"
