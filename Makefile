@@ -6,9 +6,10 @@ packages: Brewfile.lock.json
 
 
 SYMLINKS:=\
-	~/.config/fish/config.fish\
-	~/.gitconfig\
-  ~/.bashrc
+	~/.config/fish/config.fish \
+	~/.gitconfig \
+	~/.bashrc \
+	~/.vimrc \
 
 ~/.config/fish/config.fish: config.fish
 	mkdir -p ~/.config/fish
@@ -18,6 +19,9 @@ SYMLINKS:=\
 	ln -sf $(PWD)/$^ $@
 
 ~/.bashrc: .bashrc
+	ln -sf $(PWD)/$^ $@
+
+~/.vimrc: .vimrc
 	ln -sf $(PWD)/$^ $@
 
 symlinks: $(SYMLINKS)
