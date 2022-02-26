@@ -10,7 +10,7 @@ SYMLINKS:=\
 	~/.gitconfig\
   ~/.bashrc
 
-~/config/fish/config.fish: config.fish
+~/.config/fish/config.fish: config.fish
 	mkdir -p ~/.config/fish
 	ln -sf $(PWD)/$^ $@
 

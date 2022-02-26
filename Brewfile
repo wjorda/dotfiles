@@ -2,6 +2,8 @@ tap "homebrew/cask"
 cask_args appdir: "~/Applications"
 tap "homebrew/cask-drivers"
 
+brew "mas"
+
 brew "hblock"
 brew "ykman"
 brew "hugo"
@@ -9,6 +11,7 @@ brew "openapi-generator"
 brew "oq"
 brew "jo"
 brew "bitwarden-cli"
+brew "step"
 
 cask "brave-browser"
 cask "firefox"
