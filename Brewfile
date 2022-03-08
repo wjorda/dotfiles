@@ -61,3 +61,6 @@ brew "haskell-language-server"
 # Golang
 brew "go"
 brew "protoc-gen-go"
+
+# Games
+brew "unshield"
