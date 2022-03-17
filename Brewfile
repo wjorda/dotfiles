@@ -52,6 +52,7 @@ brew "argocd"
 brew "linkerd"
 brew "k3d"
 brew "docker-compose"
+brew "earthly/earthly/earthly"
 
 # Android dev
 brew "openjdk@17"
