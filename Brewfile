@@ -15,6 +15,7 @@ brew "bitwarden-cli"
 brew "step"
 brew "ripgrep", args: ["build-from-source"]
 brew "exa", args: ["build-from-source"]
+brew "sl", args: ["build-from-source"]
 
 cask "brave-browser"
 cask "firefox"
