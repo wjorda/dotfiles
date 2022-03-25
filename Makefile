@@ -63,4 +63,8 @@ system-clean: clean
 
 system-upgrade: system-clean system update
 
+commit:
+	git cm . -m "Patching $(shell date)"
+	git push
+
 default: update
