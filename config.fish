@@ -6,10 +6,10 @@ set -x NDK_HOME $ANDROID_HOME/ndk/22.1.7171670
 set -x PATH $PATH $ANDROID_HOME/cmdline-tools/latest/bin $ANDROID_HOME/platform-tools/
 
 # rustup
-set -x PATH $PATH $HOME/.cargo/bin
+set -x PATH $HOME/.cargo/bin $PATH 
 
 # random bin's
-set -x PATH $PATH $HOME/bin
+set -x PATH $HOME/bin $PATH 
 
 function password
 	LC_ALL=C tr -dc 'A-Za-z0-9!"#$%&' </dev/urandom | head -c $argv[1]  ; echo

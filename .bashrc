@@ -6,7 +6,7 @@ export NDK_HOME=$ANDROID_HOME/ndk/22.1.7171670
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools/
 
 # rustup
-export PATH=$PATH:$HOME/.cargo/bin
+export PATH=$HOME/.cargo/bin:$PATH
 
 # random bin's
-export PATH=$PATH:$HOME/bin
+export PATH=$HOME/bin:$PATH
