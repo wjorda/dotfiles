@@ -71,6 +71,9 @@ brew "protoc-gen-go"
 # Games
 brew "unshield"
 
-# Experimental
+# Misc Dev
+tap "helix-editor/helix"
+brew "helix"
+
 tap "danielgtaylor/restish"
 brew "restish"

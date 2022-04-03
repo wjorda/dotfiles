@@ -1,20 +1,22 @@
+[core]
+  editor = hx
 [alias]
   s = status
-	st = status
-	statys = status
-	cm = commit
-	co = checkout
-	com = checkout master
-	cod = checkout develop
-	up = pull --rebase
-	pullmods = submodule update --remote --recursive
-	last = log -1 HEAD
-	last2 = log -2 HEAD
-	last3 = log -3 HEAD
-	unstage = reset HEAD --
-	pushi = push --set-upstream origin
+  st = status
+  statys = status
+  cm = commit
+  co = checkout
+  com = checkout master
+  cod = checkout develop
+  up = pull --rebase
+  pullmods = submodule update --remote --recursive
+  last = log -1 HEAD
+  last2 = log -2 HEAD
+  last3 = log -3 HEAD
+  unstage = reset HEAD --
+  pushi = push --set-upstream origin
   proxy-on = config --global http.proxy "socks5h://127.0.0.1:1338"
   proxy-off = config --global http.proxy --unset
   cmp = !git cm && git push
 [pull]
-	rebase = true
+  rebase = true

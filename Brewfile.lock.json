@@ -2,16 +2,19 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "a23e8f5a88a5683f83f250f152c2b96b8385ebda"
+        "revision": "d268653f3006554888f3a7a5348e900d70a6604c"
       },
       "homebrew/cask-drivers": {
-        "revision": "24f3e38ee44dda833da829d21765117d9a68abfd"
+        "revision": "d7c5e093de6e345330cffb07bc52a33d47853e87"
       },
       "int128/kubelogin": {
         "revision": "f6fac62fa07f563fc12b86a3dc818cfa20746931"
       },
       "danielgtaylor/restish": {
-        "revision": "1569ceb5c5864617a2e8815ce69de0475a53e553"
+        "revision": "155f4827d60f16ea68c3406f4f12f41ba9af5d35"
+      },
+      "helix-editor/helix": {
+        "revision": "b79ed57cfc8907de366b86e3cd535541ccd049da"
       }
     },
     "brew": {
@@ -1360,7 +1363,11 @@
         }
       },
       "restish": {
-        "version": "0.11.0",
+        "version": "0.12.0",
+        "bottle": false
+      },
+      "helix": {
+        "version": "22.03",
         "bottle": false
       }
     },
@@ -1489,7 +1496,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.4.4-59-g3370929",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "e6bbec8f7e292aa26b8bc821ed6c551fdf783961",
+        "Homebrew/homebrew-core": "d696884e8a23e73b98f82985745bd6862aec6f6c",
         "CLT": "13.3.0.0.1.1645755326",
         "Xcode": "13.3",
         "macOS": "12.3.1"
