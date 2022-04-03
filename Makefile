@@ -10,6 +10,7 @@ SYMLINKS:=\
 	~/.gitconfig \
 	~/.bashrc \
 	~/.vimrc \
+	~/.restish \
 
 ~/.config/fish/config.fish: config.fish
 	mkdir -p ~/.config/fish
@@ -22,6 +23,9 @@ SYMLINKS:=\
 	ln -sf $(PWD)/$^ $@
 
 ~/.vimrc: .vimrc
+	ln -sf $(PWD)/$^ $@
+
+~/.restish: .restish
 	ln -sf $(PWD)/$^ $@
 
 symlinks: $(SYMLINKS)

@@ -14,3 +14,5 @@ set -x PATH $PATH $HOME/bin
 function password
 	LC_ALL=C tr -dc 'A-Za-z0-9!"#$%&' </dev/urandom | head -c $argv[1]  ; echo
 end
+
+alias tba 'restish tba'

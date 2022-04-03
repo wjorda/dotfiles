@@ -54,6 +54,7 @@ brew "linkerd"
 brew "k3d"
 brew "docker-compose"
 brew "earthly/earthly/earthly"
+brew "helmfile"
 
 # Android dev
 brew "openjdk@17"
@@ -69,3 +70,7 @@ brew "protoc-gen-go"
 
 # Games
 brew "unshield"
+
+# Experimental
+tap "danielgtaylor/restish"
+brew "restish"
