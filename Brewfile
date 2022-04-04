@@ -37,6 +37,7 @@ brew "bfg"
 # Rust dev
 brew "rustup"
 cask "clion"
+brew "rust-analyzer"
 
 # K8s dev
 tap "int128/kubelogin"
