@@ -78,3 +78,7 @@ brew "helix"
 
 tap "danielgtaylor/restish"
 brew "restish"
+
+# Python dev
+brew "python@3.10"
+brew "poetry"

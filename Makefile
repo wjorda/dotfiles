@@ -49,8 +49,8 @@ system: softwareupdate-history.txt
 
 
 pip.lock: requirements.txt
-	pip3 install -r $^
-	pip3 freeze --all > $@
+	pip install -r $^
+	pip freeze --all > $@
 python: pip.lock
 
 update: packages symlinks java android python
