@@ -27,6 +27,7 @@ cask "yubico-authenticator"
 cask "thinkorswim"
 cask "spotify"
 cask "balenaetcher"
+cask "obsidian"
 
 # Shell Tools
 brew "fish"
