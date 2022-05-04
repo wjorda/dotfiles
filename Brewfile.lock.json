@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "11178f262d18e7e270a1923e3808805b1d9ef0c6"
+        "revision": "7d574a83b56a864f2f667b7820ad14037fa74436"
       },
       "homebrew/cask-drivers": {
-        "revision": "f91633971abf93d0ec247ac4f189e2486f5a042a"
+        "revision": "677e6dc9082229a328f6ada42d9d23fb2f74c345"
       },
       "int128/kubelogin": {
         "revision": "f6fac62fa07f563fc12b86a3dc818cfa20746931"
@@ -1490,7 +1490,7 @@
     },
     "cask": {
       "brave-browser": {
-        "version": "1.38.109.0,138.109",
+        "version": "1.38.111.0,138.111",
         "options": {
           "full_name": "brave-browser",
           "args": {
@@ -1499,7 +1499,7 @@
         }
       },
       "firefox": {
-        "version": "99.0.1",
+        "version": "100.0",
         "options": {
           "full_name": "firefox",
           "args": {
@@ -1620,9 +1620,9 @@
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.4.10-7-ga4545e5",
+        "HOMEBREW_VERSION": "3.4.10-20-gd379989",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "983fc2bb30de562762ba9306af6fc751e9012401",
+        "Homebrew/homebrew-core": "142b7bc3719b70263865d67160b17dd83fd416e4",
         "CLT": "13.3.1.0.1.1648687083",
         "Xcode": "13.3",
         "macOS": "12.3.1"
