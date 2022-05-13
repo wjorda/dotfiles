@@ -17,6 +17,10 @@ brew "ripgrep", args: ["build-from-source"]
 brew "exa", args: ["build-from-source"]
 brew "sl", args: ["build-from-source"]
 
+brew "cmake"
+brew "qt5"
+brew "libusb"
+
 cask "brave-browser"
 cask "firefox"
 cask "iterm2"
