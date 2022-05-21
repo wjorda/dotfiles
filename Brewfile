@@ -65,6 +65,7 @@ brew "helmfile"
 # Android dev
 brew "openjdk@17"
 cask "android-studio"
+cask "flutter"
 
 # Haskell dev
 brew "haskell-stack"
