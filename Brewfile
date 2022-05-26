@@ -16,7 +16,7 @@ brew "step"
 brew "ripgrep", args: ["build-from-source"]
 brew "exa", args: ["build-from-source"]
 brew "sl", args: ["build-from-source"]
-
+brew "pandoc"
 brew "cmake"
 brew "qt5"
 brew "libusb"
@@ -32,6 +32,7 @@ cask "thinkorswim"
 cask "spotify"
 cask "balenaetcher"
 cask "obsidian"
+cask "wkhtmltopdf"
 
 # Shell Tools
 brew "fish"
