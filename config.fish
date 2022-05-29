@@ -13,6 +13,9 @@ set -x PATH $CARGO_HOME/bin $PATH
 set -x PYTHON_HOME /usr/local/opt/python@3.10/
 set -x PATH $PYTHON_HOME/libexec/bin $PATH
 
+# go
+set -x PATH $HOME/go/bin $PATH
+
 # random bin's
 set -x PATH $HOME/bin $PATH 
 

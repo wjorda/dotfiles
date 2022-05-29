@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "94d0a48515fb030b19b3935aa03b250760f2838a"
+        "revision": "5c931941f2b92718599fbc40df6a01ec62cbd8f4"
       },
       "homebrew/cask-drivers": {
-        "revision": "479404e5fa473d6bbe2892c8a367b5ce1979dbbb"
+        "revision": "d1cab9b805f392176bc05f0f0540329ce90d398c"
       },
       "int128/kubelogin": {
         "revision": "f6fac62fa07f563fc12b86a3dc818cfa20746931"
       },
       "helix-editor/helix": {
-        "revision": "a4faca5da43ec11f3e602e57ee7df040be6a7352"
+        "revision": "5d96bef0d64d21af9092a181a25c6cd5fe452e14"
       },
       "danielgtaylor/restish": {
         "revision": "4ecd54503a2a6bcbcfb2c3f0583502008bf2dde2"
@@ -1558,7 +1558,7 @@
         }
       },
       "helix": {
-        "version": "22.03",
+        "version": "22.05",
         "bottle": false
       },
       "restish": {
@@ -1718,7 +1718,7 @@
         }
       },
       "spotify": {
-        "version": "1.1.85.895,2a71e1b8,31",
+        "version": "1.1.86.857,3751ee08,41",
         "options": {
           "full_name": "spotify",
           "args": {
@@ -1794,9 +1794,9 @@
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.4.11-126-g22d0fb8",
+        "HOMEBREW_VERSION": "3.4.11-147-g6188f15",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "ff90b0d4b9118fc12e287c1809604c79b79a0906",
+        "Homebrew/homebrew-core": "5e04cffec7464335af26eedc64eebd205b779bad",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4",
         "macOS": "12.4"
