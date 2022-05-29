@@ -7,6 +7,7 @@ packages: Brewfile.lock.json
 
 SYMLINKS:=\
 	~/.config/fish/config.fish \
+	~/.config/helix/config.toml \
 	~/.gitconfig \
 	~/.bashrc \
 	~/.vimrc \
@@ -14,6 +15,10 @@ SYMLINKS:=\
 
 ~/.config/fish/config.fish: config.fish
 	mkdir -p ~/.config/fish
+	ln -sf $(PWD)/$^ $@
+
+~/.config/helix/config.toml: helix.toml
+	mkdir -p ~/.config/helix
 	ln -sf $(PWD)/$^ $@
 
 ~/.gitconfig: .gitconfig
