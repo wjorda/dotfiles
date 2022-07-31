@@ -11,3 +11,4 @@ macOS Monterey 12.3.1                              12.3.1     04/02/2022, 20:32:
 Command Line Tools for Xcode                       13.3       04/16/2022, 10:29:51  
 Command Line Tools for Xcode                       13.4       05/12/2022, 20:12:24  
 macOS Monterey 12.4                                12.4       05/21/2022, 11:53:41  
+macOS Monterey 12.5                                12.5       07/31/2022, 08:36:53  

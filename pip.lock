@@ -4,7 +4,7 @@ idna==3.3
 numpy==1.22.3
 pandas==1.4.2
 pip @ file:///usr/local/Cellar/python%403.10/3.10.5/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ensurepip/_bundled/pip-22.1.2-py3-none-any.whl
-protobuf==3.19.4
+protobuf==4.21.4
 python-dateutil==2.8.2
 pytz==2022.1
 requests==2.27.1
