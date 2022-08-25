@@ -64,7 +64,7 @@ brew "earthly/earthly/earthly"
 brew "helmfile"
 
 # Android dev
-brew "openjdk@17"
+brew "openjdk@18"
 cask "android-studio"
 cask "flutter"
 
