@@ -12,6 +12,7 @@ SYMLINKS:=\
 	~/.bashrc \
 	~/.vimrc \
 	~/.restish \
+	~/bin/dotfiles
 
 ~/.config/fish/config.fish: config.fish
 	mkdir -p ~/.config/fish
@@ -32,6 +33,10 @@ SYMLINKS:=\
 
 ~/.restish: .restish
 	ln -sf $(PWD)/$^ $@
+
+~/bin/dotfiles: run.sh
+	ln -sf $(PWD)/$^ $@
+
 
 symlinks: $(SYMLINKS)
 

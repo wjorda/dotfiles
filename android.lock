@@ -9,7 +9,7 @@ Loading package information...                                                  
   emulator               | 31.3.10      | Android Emulator                        | emulator              
   ndk;22.1.7171670       | 22.1.7171670 | NDK (Side by side) 22.1.7171670         | ndk/22.1.7171670      
   patcher;v4             | 1            | SDK Patch Applier v4                    | patcher/v4            
-  platform-tools         | 33.0.2       | Android SDK Platform-Tools              | platform-tools        
+  platform-tools         | 33.0.3       | Android SDK Platform-Tools              | platform-tools        
   platforms;android-31   | 1            | Android SDK Platform 31                 | platforms/android-31  
   platforms;android-32   | 1            | Android SDK Platform 32                 | platforms/android-32  
   sources;android-31     | 1            | Sources for Android 31                  | sources/android-31    
