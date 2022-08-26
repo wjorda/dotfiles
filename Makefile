@@ -1,5 +1,7 @@
 .DEFAULT_GOAL := default
 
+export JAVA_HOME:=/usr/local/opt/openjdk
+
 Brewfile.lock.json: Brewfile
 	brew bundle --cleanup
 packages: Brewfile.lock.json
