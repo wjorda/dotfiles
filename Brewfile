@@ -39,6 +39,7 @@ brew "fish"
 brew "tmux"
 brew "tree"
 brew "bfg"
+brew "nushell"
 
 # Rust dev
 brew "rustup"
@@ -62,6 +63,7 @@ brew "k3d"
 brew "docker-compose"
 brew "earthly/earthly/earthly"
 brew "helmfile"
+
 
 # Android dev
 brew "openjdk@18"

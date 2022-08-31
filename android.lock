@@ -5,6 +5,7 @@ Loading package information...                                                  
   build-tools;31.0.0     | 31.0.0       | Android SDK Build-Tools 31              | build-tools/31.0.0    
   build-tools;32.0.0     | 32.0.0       | Android SDK Build-Tools 32              | build-tools/32.0.0    
   build-tools;32.1.0-rc1 | 32.1.0 rc1   | Android SDK Build-Tools 32.1-rc1        | build-tools/32.1.0-rc1
+  build-tools;33.0.0     | 33.0.0       | Android SDK Build-Tools 33              | build-tools/33.0.0    
   cmdline-tools;latest   | 7.0          | Android SDK Command-line Tools (latest) | cmdline-tools/latest  
   emulator               | 31.3.10      | Android Emulator                        | emulator              
   ndk;22.1.7171670       | 22.1.7171670 | NDK (Side by side) 22.1.7171670         | ndk/22.1.7171670      

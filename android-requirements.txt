@@ -1,4 +1,4 @@
-build-tools;31.0.0    
+build-tools;33.0.0
 cmdline-tools;latest
 platform-tools
 emulator
