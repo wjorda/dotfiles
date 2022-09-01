@@ -3,12 +3,12 @@ charset-normalizer==2.0.12
 idna==3.3
 numpy==1.22.3
 pandas==1.4.2
-pip @ file:///usr/local/Cellar/python%403.10/3.10.6_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ensurepip/_bundled/pip-22.2.2-py3-none-any.whl
+pip @ file:///usr/local/Cellar/python%403.10/3.10.6_2/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ensurepip/_bundled/pip-22.2.2-py3-none-any.whl
 protobuf==4.21.4
 python-dateutil==2.8.2
 pytz==2022.1
 requests==2.27.1
-setuptools @ file:///usr/local/Cellar/python%403.10/3.10.6_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ensurepip/_bundled/setuptools-63.4.3-py3-none-any.whl
+setuptools @ file:///usr/local/Cellar/python%403.10/3.10.6_2/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ensurepip/_bundled/setuptools-63.4.3-py3-none-any.whl
 six==1.16.0
 urllib3==1.26.9
-wheel @ file:///usr/local/Cellar/python%403.10/3.10.6_1/libexec/wheel-0.37.1-py2.py3-none-any.whl
+wheel @ file:///usr/local/Cellar/python%403.10/3.10.6_2/libexec/wheel-0.37.1-py2.py3-none-any.whl

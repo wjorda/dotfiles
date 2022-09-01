@@ -20,6 +20,7 @@ brew "pandoc"
 brew "cmake"
 brew "qt5"
 brew "libusb"
+brew "bazel"
 
 cask "brave-browser"
 cask "firefox"
