@@ -1,1 +1,4 @@
-.restish/responses*
+restish/.restish/responses*
+restish/.restish/apis.json
+restish/.restish/cache.json
+

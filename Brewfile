@@ -21,6 +21,7 @@ brew "cmake"
 brew "qt5"
 brew "libusb"
 brew "bazel"
+brew "stow"
 
 cask "brave-browser"
 cask "firefox"

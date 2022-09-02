@@ -1,0 +1,7 @@
+[[language]]
+name = "Brewfile"
+scope = "source.rb"
+injection-regex = "^mylang$"
+file-types = ["Brewfile"]
+roots = ["Brewfile"]
+grammar = "ruby"

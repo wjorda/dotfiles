@@ -1,86 +1,59 @@
-.DEFAULT_GOAL := default
+SHELL := bash
+.ONESHELL:
+.SHELLFLAGS := -eu -o pipefail -c
+.DELETE_ON_ERROR:
+MAKEFLAGS += --warn-undefined-variables
+MAKEFLAGS += --no-builtin-rules
 
 export JAVA_HOME:=/usr/local/opt/openjdk
 
-Brewfile.lock.json: Brewfile
-	brew bundle --cleanup
-packages: Brewfile.lock.json
+LOCKFILES := \
+	Brewfile.lock.json \
+	stow.txt \
+	android.lock \
+	softwareupdate-history.txt \
+	pip.lock
 
+STOW_PACKAGES := $(wildcard */)
+DOTFILES := $(shell git ls-files $(STOW_PACKAGES))
 
-SYMLINKS:=\
-	~/.config/fish/config.fish \
-	~/.config/helix/config.toml \
-	~/.gitconfig \
-	~/.bashrc \
-	~/.vimrc \
-	~/.restish \
-	~/bin/dotfiles
-
-~/.config/fish/config.fish: config.fish
-	mkdir -p ~/.config/fish
-	ln -sf $(PWD)/$^ $@
-
-~/.config/helix/config.toml: helix.toml
-	mkdir -p ~/.config/helix
-	ln -sf $(PWD)/$^ $@
-
-~/.gitconfig: .gitconfig
-	ln -sf $(PWD)/$^ $@
-
-~/.bashrc: .bashrc
-	ln -sf $(PWD)/$^ $@
-
-~/.vimrc: .vimrc
-	ln -sf $(PWD)/$^ $@
-
-~/.restish: .restish
-	ln -sf $(PWD)/$^ $@
-
-~/bin/dotfiles: run.sh
-	ln -sf $(PWD)/$^ $@
-
-
-symlinks: $(SYMLINKS)
-
-
-/Library/Java/JavaVirtualMachines/openjdk.jdk: /usr/local/opt/openjdk/libexec/openjdk.jdk
-	sudo ln -sfn $^ $@
-java: /Library/Java/JavaVirtualMachines/openjdk.jdk 
-
-
-android.lock: android-requirements.txt
-	sdkmanager --package_file=$^
-	sdkmanager --list_installed --include_obsolete > $@
-android: android.lock
-
-
-softwareupdate-history.txt:
-	softwareupdate -ia
-	softwareupdate --history > $@
-system: softwareupdate-history.txt
-
-
-pip.lock: requirements.txt
-	pip install -r $^
-	pip freeze --all > $@
-python: pip.lock
-
-update: packages symlinks java android python
+all: update
 
 clean:
-	rm -rf android.lock
-	rm -rf Brewfile.lock.json
-	rm -rf pip.lock
+	$(RM) $(LOCKFILES)
 
-upgrade: clean update
-
-system-clean: clean
-	rm -rf softwareupdate-history.txt
-
-system-upgrade: system-clean system update
-
+update: system brew symlinks java android python
+upgrade: clean all
 commit:
 	git cm . -m "Patching $(shell date)"
 	git push
 
-default: update
+brew: Brewfile.lock.json
+symlinks: brew stow.txt
+java: brew /Library/Java/JavaVirtualMachines/openjdk.jdk
+android: brew java android.lock
+python: brew pip.lock
+system: softwareupdate-history.txt
+
+Brewfile.lock.json: Brewfile
+	brew bundle --cleanup
+
+stow.txt: $(DOTFILES)
+	stow --verbose --target $(HOME) $(STOW_PACKAGES)
+	echo $^ > $@
+
+/Library/Java/JavaVirtualMachines/openjdk.jdk: /usr/local/opt/openjdk/libexec/openjdk.jdk
+	sudo ln -sfn $^ $@
+
+android.lock: android-requirements.txt
+	sdkmanager --package_file=$^
+	sdkmanager --list_installed --include_obsolete > $@
+
+softwareupdate-history.txt:
+	softwareupdate -ia
+	softwareupdate --history > $@
+
+pip.lock: requirements.txt
+	pip install -r $^
+	pip freeze --all > $@
+
