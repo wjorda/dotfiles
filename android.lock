@@ -2,6 +2,7 @@
   cmdline-tools;latest | 7.0          | Android SDK Command-line Tools (latest) | cmdline-tools/latest
   emulator             | 31.3.10      | Android Emulator                        | emulator            
   ndk;22.1.7171670     | 22.1.7171670 | NDK (Side by side) 22.1.7171670         | ndk/22.1.7171670    
+  ndk;25.1.8937393     | 25.1.8937393 | NDK (Side by side) 25.1.8937393         | ndk/25.1.8937393    
   patcher;v4           | 1            | SDK Patch Applier v4                    | patcher/v4          
   platform-tools       | 33.0.3       | Android SDK Platform-Tools              | platform-tools      
   platforms;android-33 | 2            | Android SDK Platform 33                 | platforms/android-33

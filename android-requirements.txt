@@ -3,6 +3,7 @@ cmdline-tools;latest
 platform-tools
 emulator
 ndk;22.1.7171670
+ndk;25.1.8937393
 patcher;v4
 platforms;android-33
 sources;android-33
