@@ -1,0 +1,8 @@
+theme = "onedark"
+
+[editor]
+auto-completion = false
+auto-info = false
+
+[editor.lsp]
+auto-signature-help = false
