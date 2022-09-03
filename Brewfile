@@ -69,6 +69,7 @@ brew "helmfile"
 
 # Android dev
 brew "openjdk@18"
+cask "android-commandlinetools"
 cask "android-studio"
 cask "flutter"
 

@@ -4,5 +4,5 @@ platform-tools
 emulator
 ndk;22.1.7171670
 patcher;v4
-platforms;android-31 
-sources;android-31
+platforms;android-33
+sources;android-33

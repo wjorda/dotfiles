@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "8fc2dbffdc775e5f527f30e73a36619caf1ce1bb"
+        "revision": "ba8f96bdcdafccd0d797fbb73a80917c8c96efbb"
       },
       "homebrew/cask-drivers": {
         "revision": "47db1e970a5eadd8f4788c4c5ce8c3e1b1dc1a50"
@@ -1962,6 +1962,15 @@
           }
         }
       },
+      "android-commandlinetools": {
+        "version": "8512546",
+        "options": {
+          "full_name": "android-commandlinetools",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      },
       "android-studio": {
         "version": "2021.2.1.16",
         "options": {
@@ -1985,9 +1994,9 @@
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.5.10-112-ge689cc0",
+        "HOMEBREW_VERSION": "3.5.10-116-gf765382",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "50a7130639853a4297b08c080fc5188b62fbfa11",
+        "Homebrew/homebrew-core": "079edef317d48daf15c383d2554649aee4d06446",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4",
         "macOS": "12.5.1"
