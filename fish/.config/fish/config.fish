@@ -1,5 +1,5 @@
 set -x JAVA_HOME /usr/local/opt/openjdk
-set -x ANDROID_HOME ~/Library/Android/sdk
+set -x ANDROID_HOME /usr/local/share/android-commandlinetools
 set -x NDK_HOME $ANDROID_HOME/ndk/22.1.7171670
 
 # android sdk
