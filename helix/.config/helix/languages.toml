@@ -1,7 +1,3 @@
 [[language]]
-name = "Brewfile"
-scope = "source.rb"
-injection-regex = "^mylang$"
-file-types = ["Brewfile"]
-roots = ["Brewfile"]
-grammar = "ruby"
+name = "python"
+language-server = { command = "python3", args = ["-m", "pylsp"] }
