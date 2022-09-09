@@ -93,7 +93,7 @@ brew "restish"
 
 # Python dev
 brew "python@3.10"
-brew "poetry"
+brew "pdm"
 
 # OCaml dev
 brew "opam"

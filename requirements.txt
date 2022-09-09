@@ -1,2 +1,6 @@
 requests
 pandas
+black
+python-lsp-server[all]
+pyyaml
+tomli
