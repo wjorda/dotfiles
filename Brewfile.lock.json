@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "0dc06a0f0932812b2716b6bd6c0f92d6e902d8c4"
+        "revision": "3883fd34bdf94823190846ce92be0a4c321d4979"
       },
       "homebrew/cask-drivers": {
-        "revision": "030776b72480041cfea4fbfe3c9baf63a17f1adc"
+        "revision": "47ef9ef6611c2470c67aa30f7544ab222d4553b4"
       },
       "int128/kubelogin": {
         "revision": "7e8dfab724a0a127ef97e09622c1ccb1b3119e74"
@@ -170,15 +170,15 @@
         }
       },
       "openapi-generator": {
-        "version": "6.0.1",
+        "version": "6.1.0",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "all": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/openapi-generator/blobs/sha256:219039060ed6bdb595cde4b2d6f61d8908c37c0eb088b60da00a1438f19e9791",
-              "sha256": "219039060ed6bdb595cde4b2d6f61d8908c37c0eb088b60da00a1438f19e9791"
+              "url": "https://ghcr.io/v2/homebrew/core/openapi-generator/blobs/sha256:39d71622f4972046deccead24a81783e132623cf4103a3e168d9bccb23e220d1",
+              "sha256": "39d71622f4972046deccead24a81783e132623cf4103a3e168d9bccb23e220d1"
             }
           }
         }
@@ -1994,9 +1994,9 @@
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.6.0-30-g2d0c32f",
+        "HOMEBREW_VERSION": "3.6.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "dda26a54adfb455c0f4fc25f36da0a7bdc116f12",
+        "Homebrew/homebrew-core": "04dfb30e1d0d88d8cb7a65c6200c50e1dde0d609",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4",
         "macOS": "12.5.1"

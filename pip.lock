@@ -10,6 +10,7 @@ idna==3.3
 isort==5.10.1
 jedi==0.18.1
 lazy-object-proxy==1.7.1
+maturin==0.13.2
 mccabe==0.6.1
 mypy-extensions==0.4.3
 nodeenv==1.7.0
