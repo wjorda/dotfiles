@@ -26,7 +26,7 @@ clean:
 update: system brew symlinks java android python
 upgrade: clean all
 commit:
-	git cm . -m "Patching $(shell date)"
+	git cm $(LOCKFILES) -m "Patching $(shell date)"
 	git push
 
 brew: Brewfile.lock.json
